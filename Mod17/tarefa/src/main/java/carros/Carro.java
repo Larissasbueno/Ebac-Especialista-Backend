@@ -12,5 +12,13 @@ public abstract class Carro {
 
     public abstract void acelerar();
     public abstract void frear();
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }
 
